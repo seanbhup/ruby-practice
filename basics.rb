@@ -1,3 +1,25 @@
+# Ruby is a true OOP languata (very difficult to go procedural)
+# -Encapsulation
+# --Bundle all data and methods together
+# -- Also hiding stuff that shouldn't be available
+# -Abstraction
+# --Share what matters, avoid what doesn't
+# -Inheritence
+# --Super/subclass
+# --Car --> Electric Car
+# --Monster --> Vampire
+# -Polymorphism
+# --Allows you to use the same code to do different things
+# -- in terms of inheritence, you have a Shape --> Square, Shape --> Circle
+# --shape.draw() AS OPPOSED TO drawSquare(),drawCircle();
+
+# - Ruby is a general purpose interpreted language (doesn't compile) like node, php, or python
+# - C based
+# -Easy to connect to a DB
+# -Tons of gems
+# --gems are --> node/npm, apt/ubuntu, brew/mac, plugin/jQuery
+
+
 puts "Hello, World" +
 "!"
 
@@ -60,7 +82,7 @@ end
 # >, <
 # +=, -=
 # ++ ERROR
-
+k = nil
 i = 2
 unless i > 5
     puts "This number is < 5"
@@ -74,6 +96,9 @@ end
 for i in 1..10
     puts i
 end
+
+#parallel assignment ... nice, but annoying
+a,b,c = 10,11,12
 
 # dont need () if no parameters
 def hello_world(name)
